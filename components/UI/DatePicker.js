@@ -1,12 +1,10 @@
 import styled from "@emotion/styled";
-import { store } from "store";
-import { addNewStudent } from "store/actions";
 import { Component } from "react";
 import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import TextField from "@mui/material/TextField";
-import { TextBoxMixin, LabelMixin } from "/styles/mixins";
+import { TextBoxMixin, LabelMixin } from "styles/mixins";
 // import theme from "/styles/theme";
 
 const BoxContainer = styled.div`
