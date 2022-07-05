@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { styled } from "@mui/material/styles";
 import { Drawer } from "@mui/material";
 import useResponsive from "hooks/useResponsive";
-import NavSection from "components/NavSection";
+import NavSection from "../components/Navsection";
 import navConfig from "./config";
 
 const DRAWER_WIDTH = 280;
